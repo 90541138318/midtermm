@@ -1,0 +1,42 @@
+body{
+   background-color: rgb(184, 204, 242);
+}
+.container1{
+   background-image: url(stars.webp) ;
+   background-position: center;
+    height: 300px; /* Set the height of your container */
+    width: 100%; 
+
+   background-size: cover;
+}
+.container1 h1{
+   text-align: center;
+  padding-top: 100px;
+  color: azure;
+}
+.container2{
+   padding-top: 10px;
+   }
+nav a{
+   color: rgb(209, 23, 48);
+   width: 100%;
+   font-size: 18px;
+   padding: 0px 30px;
+   text-decoration: none;
+   text-align: justify;
+   margin-left: 250px;
+   border-bottom: 2px solid transparent;
+   }
+   /* Style the link text on hover */
+nav a:hover {
+   border-bottom-color: #333; /* Change the bottom border color on hover */
+}
+
+  .container3{
+   margin: 0 auto;
+   padding-top: 10px;
+  }
+  img{
+   float: left;
+ margin-right: 20px;
+  }
