@@ -6,8 +6,10 @@ body{
    background-position: center;
     height: 300px; /* Set the height of your container */
     width: 100%; 
+    padding-top: 0%;
 
    background-size: cover;
+
 }
 .container1 h1{
    text-align: center;
@@ -18,15 +20,14 @@ body{
    padding-top: 10px;
    }
 nav a{
-   color: rgb(209, 23, 48);
-   width: 100%;
-   font-size: 18px;
-   padding: 0px 30px;
    text-decoration: none;
-   text-align: justify;
-   margin-left: 250px;
-   border-bottom: 2px solid transparent;
-   }
+   color: black; 
+   position:static;
+  
+   padding-left: 12.70%;
+   padding-right: 12.70%;
+   border-right: 1px solid gray;
+}
    /* Style the link text on hover */
 nav a:hover {
    border-bottom-color: #333; /* Change the bottom border color on hover */
@@ -34,9 +35,37 @@ nav a:hover {
 
   .container3{
    margin: 0 auto;
-   padding-top: 10px;
+   padding-top: 0px;
+  }
+  .container3 h1{
+   color: darkslateblue;
+   padding-top: 0px;
+  }
+  .container3 p{
+   font-size: 18px;
+
   }
   img{
    float: left;
  margin-right: 20px;
+  }
+  footer{
+   text-align: right;
+   padding-right: 10px;
+   padding-bottom: 10px;
+  }
+  form{
+   padding-left: 10px;
+   border: 1px solid black;
+   margin-left: 10px;
+   padding-bottom: 10px;
+   margin-right: 10px;
+   padding-right: 15px;
+   margin-bottom: 10px;
+  }
+  input[type=text]{
+   width: 100%;
+  }
+  input[type=email]{
+   width: 100%;
   }
